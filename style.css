@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding:0%;
+    border: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+#header{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(15,20,24,1);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    display: flex;
+}
+#fakeheader{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(15,20,24,1);
+}
+#link{
+    margin-left: 20px;
+}
+a{
+    color: orange;
+    margin-top: 100px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.tags{
+    color: white;
+    margin-left: 130px;
+    font-size: 20px;
+}
+.tags:hover{
+    border: 1.5px solid white;
+    padding: 1px;
+    border:border-box;
+}
+#return{
+    font-size: medium;
+    font-weight: lighter;
+}
+#searchbox{
+    background-color: white;
+    color: rgb(172, 170, 170);
+    margin-left: 140px;
+    height: 25px;
+    border-radius: 4px;
+    padding-right: 55px;
+    padding-left: 18px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#search{
+    color: grey;
+    margin-left: 5px;
+    background-color: #f08804;
+    color: white;
+    font-weight: bold;
+    height: 28px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+header2{
+    height: 30px;
+    width: 100%;
+    background-color: #263d59;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.tags2{
+    margin-left: 17px;
+}
+.tags2:hover{
+    border: 1.5px solid white;
+    padding: 3.5px 4px;
+}
+img{
+    width: 100%;
+}
+
+#content1{
+    display: flex;
+    background-color: rgb(200, 21, 143);
+}
+
+#box1,#box2,#box3,#box5,#box6,#box7,#box8{
+    height: 440px;
+    width: 330px;
+    background-color: white;
+    margin-left: 20px;
+}
+#box1content,#box2content,#box3content,#box4content,#box5content,#box6content,#box7content,#box8content{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.acref,.seemore,.bobu,.noize,.seealloffer,.cufi,.exploreall1,.holi,.miwash,.stup,.toupt,.bedcur,.miho,.clty,.heva,.wofo,.wafa,.shopnow,.seemore,.endofsale{
+    display: flex;
+}
+#ac,#refi,#wash,#bo,#bou,#noi,#zeb,#cu,#fi,#ho,#li,#micro,#st,#up,#to,#upt,#bed,#cur,#mi,#ho,#cl,#ty,#he,#va,#wo,#fo,#wa,#fa{
+    width: 135px;
+    font-size: 13px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#seemore1,#seealloffer1,#exploreall1,#shopnow1,#seemore1,#endofsale1{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgb(16, 114, 16);
+}
+#box4{
+    height: 150px;
+    width: 330px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#signin{
+    height: 35px;
+    width: 290px;
+    font-weight: 500;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 213, 0);
+    color: rgb(40, 17, 17);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 40px;
+}
+
+#content2{
+    display: flex;
+    margin-top: 20px;
+}
