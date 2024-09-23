@@ -16,6 +16,7 @@ html,body{
     align-items: center;
     position: fixed;
     display: flex;
+    justify-content: space-evenly;
 }
 #fakeheader{
     height: 50px;
@@ -33,14 +34,15 @@ a{
 }
 .tags{
     color: white;
-    margin-left: 130px;
     font-size: 20px;
+    border: 1.5px solid transparent; 
+    transition: border-color 0.3s; 
 }
-.tags:hover{
-    border: 1.5px solid white;
-    padding: 1px;
-    border:border-box;
+
+.tags:hover {
+    border-color: white;
 }
+
 #return{
     font-size: medium;
     font-weight: lighter;
@@ -59,7 +61,7 @@ a{
 }
 #search{
     color: grey;
-    margin-left: 5px;
+    margin-left: 5px;̀
     background-color: #f08804;
     color: white;
     font-weight: bold;
@@ -76,13 +78,14 @@ header2{
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .tags2{
-    margin-left: 17px;
+    border: 1.5px solid transparent; 
+    transition: border-color 0.3s; 
 }
 .tags2:hover{
-    border: 1.5px solid white;
-    padding: 3.5px 4px;
+    border-color: white;
 }
 img{
     width: 100%;
