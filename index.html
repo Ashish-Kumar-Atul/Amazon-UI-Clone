@@ -5,23 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Shopping site in India</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <main>
         <div id="header">
-            <div id="link"><a href="https://www.amazon.in">amazon.in</a></div>
-            <div class="tags">Account</div>
-            <div class="tags">My Cart</div>
-            <div class="tags">Contact Us</div>
-            <div class="tags">
-                <div id="return">Return</div>
-                <div id="orders"> & Orders</div>
+            <div id="logo">amazon.in</div>
+            <div class="tags" id="delivering">
+                <div id="pincode">Delivering to Lucknow XXXXXX</div>
+                <div id="updatelocation">
+                    <i class="fa-solid fa-location-dot"></i>     
+                    <div id="location">Update location</div>
+                </div>
             </div>
-            <input placeholder="Search Amazon" id="searchbox">
-            <!-- <button id="searchbox">search Amazon.in</button> -->
-            <button id="search">Search</button>
+            <div id="searchbox">
+                <button id="all">All</button>
+                <input placeholder="Search Amazon.in" id="navsearchbox">
+                <i id="navsearchicon" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="tags" id="en">EN</div>
+            <div class="tags" id="navsign">
+                <div id="sign">Hello, sign in</div>   
+                <div id="accounts">Accounts & Lists</div>
+            </div>
+            <div class="tags" id="Retandord">
+                <div id="return">Returns</div>   
+                <div id="order">& Orders</div>
+            </div>
+            <div class="tags" id="navcart">
+                <div id="sidecart">
+                    <i id="navcarticon" class="fa-solid fa-cart-shopping"></i>
+                    <div id="cart">Cart</div>
+                </div>
+            </div>
         </div>
+            
         <div id="fakeheader"></div>
+
         <header2>
             <div class="tags2">All</div>
             <div class="tags2">Fresh</div>
@@ -40,8 +60,8 @@
             <div class="tags2">Computers</div>
             <div class="tags2">Car & Motorbikes</div>
         </header2>
-        <img src="images/great indian festival.jpg">
 
+        <img src="images/great indian festival.jpg">
 
         <div id="content1">
             <div id="box1">
